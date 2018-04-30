@@ -17,7 +17,6 @@ namespace TemplateBindingDemo.RazorLightDemo
         public RazorLightDemo()
         {
             _razorLightEngine = new RazorLightEngineBuilder()
-                .UseFilesystemProject("C:\\git\\TemplateBindingDemo\\src\\TemplateBindingDemo\\bin\\Debug\\netcoreapp2.0\\RazorLightDemo")
                 .UseMemoryCachingProvider()
                 .Build();
 
