@@ -1,6 +1,5 @@
 import UnderscoreDemo from './underscore-demo';
-
-
+import DemoRunner from './demo-runner';
 
 const args = {
     name: "Mr Harry Potter",
@@ -13,10 +12,9 @@ const args = {
 
 let start = new Date().getMilliseconds();
 
-for(let i = 0; i < 1000; i++) {    
-    let underscoreDemo = new UnderscoreDemo();
-    underscoreDemo.Run(args);
-}
+let demoRunner = new DemoRunner();
+
+demoRunner.Run(new UnderscoreDemo(), args);
 
 let end = new Date().getMilliseconds();
 

@@ -1,10 +1,8 @@
 import {readFileSync} from "fs";
 import * as underscore from "underscore";
+import IDemo from "./IDemo";
 
-
-
-
-class UnderscoreDemo {
+class UnderscoreDemo implements IDemo {
     public Run(args:any): void { 
         const source = readFileSync(`${__dirname}\\template.html`, "UTF-8");
                        
