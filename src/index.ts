@@ -1,4 +1,4 @@
-import UnderscoreDemo from './underscore-demo';
+import UnderscoreDemo from './Demos/underscore-demo';
 import DemoRunner from './demo-runner';
 
 const args = {

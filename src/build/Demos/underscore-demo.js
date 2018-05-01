@@ -6,7 +6,7 @@ var UnderscoreDemo = (function () {
     function UnderscoreDemo() {
     }
     UnderscoreDemo.prototype.Run = function (args) {
-        var source = fs_1.readFileSync(__dirname + "\\template.html", "UTF-8");
+        var source = fs_1.readFileSync(__dirname + "\\..\\..\\underscore-template.html", "UTF-8");
         var tpl = underscore.template(source);
         console.log(tpl(args));
     };

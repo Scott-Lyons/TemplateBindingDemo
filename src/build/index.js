@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var underscore_demo_1 = require("./underscore-demo");
+var underscore_demo_1 = require("./Demos/underscore-demo");
 var demo_runner_1 = require("./demo-runner");
 var args = {
     name: "Mr Harry Potter",

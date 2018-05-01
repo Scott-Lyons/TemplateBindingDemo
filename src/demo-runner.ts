@@ -1,4 +1,4 @@
-import IDemo from "./IDemo";
+import IDemo from "./Demos/IDemo";
 
 export default class DemoRunner {
     constructor() {}
